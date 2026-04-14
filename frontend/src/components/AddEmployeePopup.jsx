@@ -13,7 +13,7 @@ export default function AddEmployeePopup({ show, onClose }) {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    // ensure employee code always starts with "Comed-"
+    // ensure employee code always starts with "Comed- idhwef"
     if (name === "employeeCode") {
       const code = value.startsWith("Comed-") ? value : "Comed-" + value;
       setForm({ ...form, [name]: code });
